@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbc9beff-8d8b-4f55-b536-1120ed1fab69" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Players/NaivePlayer/src/main/java/put/ai/games/naiveplayer/SmartPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Players/NaivePlayer/src/main/java/put/ai/games/naiveplayer/SmartPlayer.java" afterDir="false" />
-    </list>
+    <list default="true" id="fbc9beff-8d8b-4f55-b536-1120ed1fab69" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/RulesProvider/target/" />
     <ignored path="$PROJECT_DIR$/Tester/target/" />
     <ignored path="$PROJECT_DIR$/Rules/Snort/target/" />
@@ -38,14 +35,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="50" />
-          <entry key="java" value="892" />
+          <entry key="java" value="1088" />
           <entry key="txt" value="7" />
           <entry key="xml" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="892" />
+          <entry key="JAVA" value="1088" />
           <entry key="PLAIN_TEXT" value="57" />
           <entry key="XML" value="56" />
         </counts>
@@ -134,8 +131,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Players/NaivePlayer/src/main/java/put/ai/games/naiveplayer/SmartPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+            <state relative-caret-position="337">
+              <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+              <folding>
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -448,12 +449,12 @@
       <option name="presentableId" value="Default" />
       <updated>1547219341449</updated>
       <workItem from="1547219346758" duration="4836000" />
-      <workItem from="1547224285282" duration="1217000" />
+      <workItem from="1547224285282" duration="1656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6053000" />
+    <option name="totallyTimeSpent" value="6492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
@@ -516,20 +517,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Players/NaivePlayer/src/main/java/put/ai/games/naiveplayer/SmartPlayer.java</url>
-          <line>29</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Players/SmartPlayer/src/main/java/put/ai/games/smartplayer/SmartPlayer.java" />
@@ -664,8 +651,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Players/NaivePlayer/src/main/java/put/ai/games/naiveplayer/SmartPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        <state relative-caret-position="337">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+          <folding>
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
