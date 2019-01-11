@@ -10,7 +10,7 @@ import put.ai.games.game.Board;
 import put.ai.games.game.Move;
 import put.ai.games.game.Player;
 
-public class NaivePlayer extends Player {
+public class SmartPlayer extends Player {
 
     private Random random = new Random(0xdeadbeef);
 

@@ -4,7 +4,6 @@
  */
 package put.ai.games.snort.impl;
 
-import put.ai.games.snort.impl.SnortBoard;
 import put.ai.games.engine.impl.GameEngineImpl;
 import java.io.File;
 import java.io.IOException;
@@ -13,19 +12,16 @@ import java.util.List;
 import java.util.Map;
 import org.junit.Test;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Ignore;
 import put.ai.games.engine.BoardFactory;
 import put.ai.games.game.Board;
 import put.ai.games.engine.GameEngine;
-import put.ai.games.engine.impl.GameEngineImpl;
 import put.ai.games.engine.parameters.Parameter;
 import put.ai.games.game.Move;
 import put.ai.games.game.Player;
 import put.ai.games.game.exceptions.RuleViolationException;
-import put.ai.games.naiveplayer.NaivePlayer;
 
-class FilePlayer extends NaivePlayer {
+class FilePlayer extends put.ai.games.naiveplayer.SmartPlayer {
 
     @Override
     public Move nextMove(Board b) {
@@ -38,7 +34,7 @@ class FilePlayer extends NaivePlayer {
     }
 }
 
-class ThreadPlayer extends NaivePlayer {
+class ThreadPlayer extends put.ai.games.naiveplayer.SmartPlayer {
 
     @Override
     public Move nextMove(Board b) {
@@ -101,8 +97,8 @@ public class GameEngineImplTest {
     @Test
     public void normalPlayer()
             throws RuleViolationException {
-        Player p1 = new NaivePlayer();
-        Player p2 = new NaivePlayer();
+        Player p1 = new put.ai.games.naiveplayer.SmartPlayer();
+        Player p2 = new put.ai.games.naiveplayer.SmartPlayer();
         game.addPlayer(p1);
         game.addPlayer(p2);
         game.play(null);
@@ -113,7 +109,7 @@ public class GameEngineImplTest {
     @Test(expected = Exception.class)
     public void filePlayer()
             throws RuleViolationException {
-        Player p1 = new NaivePlayer();
+        Player p1 = new put.ai.games.naiveplayer.SmartPlayer();
         Player p2 = new FilePlayer();
         game.addPlayer(p1);
         game.addPlayer(p2);
@@ -125,7 +121,7 @@ public class GameEngineImplTest {
     @Test(expected = Exception.class)
     public void threadPlayer()
             throws RuleViolationException {
-        Player p1 = new NaivePlayer();
+        Player p1 = new put.ai.games.naiveplayer.SmartPlayer();
         Player p2 = new ThreadPlayer();
         game.addPlayer(p1);
         game.addPlayer(p2);

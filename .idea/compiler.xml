@@ -11,6 +11,7 @@
         <module name="CLI" />
         <module name="GUI" />
         <module name="NaivePlayer" />
+        <module name="NaivePlayer (1)" />
         <module name="NastyPlayer" />
         <module name="NullPlayer" />
         <module name="RulesProvider" />
@@ -25,6 +26,7 @@
       <module name="Games" target="1.8" />
       <module name="GUI" target="1.8" />
       <module name="NaivePlayer" target="1.8" />
+      <module name="NaivePlayer (1)" target="1.8" />
       <module name="NastyPlayer" target="1.8" />
       <module name="NullPlayer" target="1.8" />
       <module name="Players" target="1.8" />

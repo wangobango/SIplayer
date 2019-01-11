@@ -31,7 +31,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>put.ai.games.naiveplayer.NaivePlayer</mainClass>
+                            <mainClass>put.ai.games.naiveplayer.SmartPlayer</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
