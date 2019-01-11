@@ -39,22 +39,24 @@ public class SmartPlayer extends Player {
         PlaceMove place = (PlaceMove)m;
 
         Color right = b.getState(place.getX()+1,place.getY());
-        if(right != getColor()){
+        if(right == Color.EMPTY){
             value+=10;
         }
         Color bottom = b.getState(place.getX(),place.getY()-1);
-        if(bottom != getColor()){
+        if(bottom== Color.EMPTY){
             value+=10;
         }
         Color left = b.getState(place.getX()-1,place.getY());
-        if(left != getColor()){
+        if(left == Color.EMPTY){
             value+=10;
         }
         Color up = b.getState(place.getX(),place.getY()+1);
-        if(up != getColor()){
+        if(up == Color.EMPTY){
             value+=10;
         }
 
-        return value;
+        if( right == getColor() || left == getColor() || up == getColor() || bottom == getColor()){
+            return 0;
+        } else return value;
     }
 }
