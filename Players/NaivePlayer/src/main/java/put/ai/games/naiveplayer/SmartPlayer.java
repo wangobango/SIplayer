@@ -9,6 +9,7 @@ import java.util.Random;
 import put.ai.games.game.Board;
 import put.ai.games.game.Move;
 import put.ai.games.game.Player;
+import put.ai.games.game.moves.PlaceMove;
 
 public class SmartPlayer extends Player {
 
@@ -24,6 +25,36 @@ public class SmartPlayer extends Player {
     @Override
     public Move nextMove(Board b) {
         List<Move> moves = b.getMovesFor(getColor());
+
+        for(Move pom:moves){
+            System.out.println(getHeuristicValue(pom,b));
+        }
+
         return moves.get(random.nextInt(moves.size()));
+
+    }
+
+    public int getHeuristicValue(Move m, Board b){
+        int value = 0;
+        PlaceMove place = (PlaceMove)m;
+
+        Color right = b.getState(place.getX()+1,place.getY());
+        if(right != getColor()){
+            value+=10;
+        }
+        Color bottom = b.getState(place.getX(),place.getY()-1);
+        if(bottom != getColor()){
+            value+=10;
+        }
+        Color left = b.getState(place.getX()-1,place.getY());
+        if(left != getColor()){
+            value+=10;
+        }
+        Color up = b.getState(place.getX(),place.getY()+1);
+        if(up != getColor()){
+            value+=10;
+        }
+
+        return value;
     }
 }
