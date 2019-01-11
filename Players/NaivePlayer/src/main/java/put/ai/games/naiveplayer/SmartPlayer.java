@@ -21,7 +21,7 @@ public class SmartPlayer extends Player {
 
     @Override
     public String getName() {
-        return "Gracz Naiwny 84868";
+        return "Ramon Dyzman 132213 Julia Dziuba 132217";
     }
 
 
@@ -42,23 +42,6 @@ public class SmartPlayer extends Player {
     public int getHeuristicValue(Move m, Board b){
         int value = 0;
         PlaceMove place = (PlaceMove)m;
-
-//        Color right = b.getState(place.getX()+1,place.getY());
-//        if(right == Color.EMPTY){
-//            value+=10;
-//        }
-//        Color bottom = b.getState(place.getX(),place.getY()-1);
-//        if(bottom== Color.EMPTY){
-//            value+=10;
-//        }
-//        Color left = b.getState(place.getX()-1,place.getY());
-//        if(left == Color.EMPTY){
-//            value+=10;
-//        }
-//        Color up = b.getState(place.getX(),place.getY()+1);
-//        if(up == Color.EMPTY){
-//            value+=10;
-//        }
 
         Color right = b.getState(place.getX()+1,place.getY());
         if(right == Color.EMPTY){
@@ -107,6 +90,10 @@ public class SmartPlayer extends Player {
         Color upleft = b.getState(place.getX()-1, place.getY()+1);
         if(upleft==Color.EMPTY){
             value +=10;
+        }
+
+        if(place.getY() == b.getSize()-1 || place.getX() == b.getSize()-1 || place.getY() == 0 || place.getX()==0 && value>=20){
+            value-=20;
         }
 
         if( right == getColor() || left == getColor() || up == getColor() || bottom == getColor()){

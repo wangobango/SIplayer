@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbc9beff-8d8b-4f55-b536-1120ed1fab69" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoardGameEngine/target/surefire-reports/TEST-put.ai.games.engine.impl.MoveValidatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BoardGameEngine/target/surefire-reports/TEST-put.ai.games.engine.impl.MoveValidatorTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoardGameEngine/target/surefire-reports/put.ai.games.engine.impl.MoveValidatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BoardGameEngine/target/surefire-reports/put.ai.games.engine.impl.MoveValidatorTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLI/target/CLI-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CLI/target/CLI-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLI/target/original-CLI-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CLI/target/original-CLI-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLI/target/surefire-reports/TEST-put.ai.games.cli.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CLI/target/surefire-reports/TEST-put.ai.games.cli.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLI/target/surefire-reports/put.ai.games.cli.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLI/target/surefire-reports/put.ai.games.cli.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/target/GUI-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/target/GUI-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/target/original-GUI-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/target/original-GUI-2.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Players/NaivePlayer/src/main/java/put/ai/games/naiveplayer/SmartPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Players/NaivePlayer/src/main/java/put/ai/games/naiveplayer/SmartPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Players/NaivePlayer/target/NaivePlayer-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Players/NaivePlayer/target/NaivePlayer-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Players/NaivePlayer/target/classes/put/ai/games/naiveplayer/SmartPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Players/NaivePlayer/target/classes/put/ai/games/naiveplayer/SmartPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rules/Snort/target/surefire-reports/TEST-put.ai.games.snort.impl.BoardTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Rules/Snort/target/surefire-reports/TEST-put.ai.games.snort.impl.BoardTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rules/Snort/target/surefire-reports/put.ai.games.snort.impl.BoardTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Rules/Snort/target/surefire-reports/put.ai.games.snort.impl.BoardTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tester/target/surefire-reports/TEST-put.ai.games.tester.TesterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tester/target/surefire-reports/TEST-put.ai.games.tester.TesterTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tester/target/surefire-reports/put.ai.games.tester.TesterTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tester/target/surefire-reports/put.ai.games.tester.TesterTest.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/RulesProvider/target/" />
     <ignored path="$PROJECT_DIR$/Tester/target/" />
@@ -28,24 +43,25 @@
     <session id="-308792692">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="50" />
-          <entry key="java" value="1310" />
+          <entry key="java" value="1455" />
           <entry key="txt" value="7" />
           <entry key="xml" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1310" />
+          <entry key="JAVA" value="1455" />
           <entry key="PLAIN_TEXT" value="57" />
           <entry key="XML" value="56" />
         </counts>
@@ -89,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BoardGameEngine/src/main/java/put/ai/games/engine/impl/GameEngineImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
+            <state relative-caret-position="810">
               <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
             </state>
           </provider>
@@ -125,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BoardGame/src/main/java/put/ai/games/game/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="216">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -134,12 +150,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Players/NaivePlayer/src/main/java/put/ai/games/naiveplayer/SmartPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-              <folding>
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="405">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -147,7 +159,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
+            <state relative-caret-position="9864">
               <caret line="571" column="6" selection-start-line="571" selection-start-column="6" selection-end-line="571" selection-end-column="6" />
             </state>
           </provider>
@@ -206,6 +218,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -314,58 +327,10 @@
               <item name="games-src" type="462c0819:PsiDirectoryNode" />
               <item name="Players" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Games" type="b2602c69:ProjectViewProjectNode" />
-              <item name="games-src" type="462c0819:PsiDirectoryNode" />
-              <item name="Players" type="462c0819:PsiDirectoryNode" />
-              <item name="NaivePlayer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Games" type="b2602c69:ProjectViewProjectNode" />
-              <item name="games-src" type="462c0819:PsiDirectoryNode" />
-              <item name="Players" type="462c0819:PsiDirectoryNode" />
-              <item name="NaivePlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Games" type="b2602c69:ProjectViewProjectNode" />
-              <item name="games-src" type="462c0819:PsiDirectoryNode" />
-              <item name="Players" type="462c0819:PsiDirectoryNode" />
-              <item name="NaivePlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Games" type="b2602c69:ProjectViewProjectNode" />
-              <item name="games-src" type="462c0819:PsiDirectoryNode" />
-              <item name="Players" type="462c0819:PsiDirectoryNode" />
-              <item name="NaivePlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Games" type="b2602c69:ProjectViewProjectNode" />
-              <item name="games-src" type="462c0819:PsiDirectoryNode" />
-              <item name="Players" type="462c0819:PsiDirectoryNode" />
-              <item name="NaivePlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="naiveplayer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Games" type="b2602c69:ProjectViewProjectNode" />
-              <item name="games-src" type="462c0819:PsiDirectoryNode" />
-              <item name="Players" type="462c0819:PsiDirectoryNode" />
-              <item name="NaivePlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,7 +357,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainWindow">
+  <component name="RunManager" selected="Maven.Game">
     <configuration name="MainWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="put.ai.games.gui.MainWindow" />
       <module name="GUI" />
@@ -453,31 +418,31 @@
       <updated>1547219341449</updated>
       <workItem from="1547219346758" duration="4836000" />
       <workItem from="1547224285282" duration="1656000" />
-      <workItem from="1547227194175" duration="729000" />
+      <workItem from="1547227194175" duration="2347000" />
+      <workItem from="1547243117327" duration="569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7221000" />
+    <option name="totallyTimeSpent" value="9408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25611326" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25933075" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928476" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32928476" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32928476" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994602" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32928476" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32928476" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -597,6 +562,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BoardGame/src/main/java/put/ai/games/game/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rules/Snort/src/test/java/put/ai/games/snort/impl/GameEngineImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BoardGameEngine/src/main/java/put/ai/games/engine/impl/GameEngineImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BoardGame/src/main/java/put/ai/games/game/moves/ShiftMove.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -618,49 +604,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BoardGameEngine/src/main/java/put/ai/games/engine/impl/GameEngineImpl.java">
+    <entry file="file://$PROJECT_DIR$/BoardGame/src/main/java/put/ai/games/game/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rules/Snort/src/test/java/put/ai/games/snort/impl/GameEngineImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BoardGame/src/main/java/put/ai/games/game/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="216">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
+        <state relative-caret-position="9864">
           <caret line="571" column="6" selection-start-line="571" selection-start-column="6" selection-end-line="571" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BoardGame/src/main/java/put/ai/games/game/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Players/NaivePlayer/src/main/java/put/ai/games/naiveplayer/SmartPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-          <folding>
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
